@@ -28,3 +28,11 @@ ACCEL_RANGE_2G      = const(0X03) # +/-  2g range
 ACCEL_RANGE_4G      = const(0X05) # +/-  4g range
 ACCEL_RANGE_8G      = const(0X08) # +/-  8g range
 ACCEL_RANGE_16G     = const(0X0C) # +/- 16g range
+
+FOC_ACC_Z_BIT       = const(0)
+FOC_ACC_Z_LEN       = const(2)
+FOC_ACC_Y_BIT       = const(2)
+FOC_ACC_Y_LEN       = const(2)
+FOC_ACC_X_BIT       = const(4)
+FOC_ACC_X_LEN       = const(2)
+FOC_GYR_EN          = const(6)
